@@ -57,7 +57,7 @@ window.onload = function () {
     context = board.getContext("2d");
 
     birdImg = new Image();
-    birdImg.src = "./aggu.png";
+    birdImg.src = "./flappybird.png";
     birdImg.onload = function () {
         context.drawImage(birdImg, bird.x, bird.y, bird.width, bird.height);
     }
@@ -66,7 +66,7 @@ window.onload = function () {
     topPipeImg.src = "./toppipe.png";
 
     bottomPipeImg = new Image();
-    bottomPipeImg.src = "./crop.png";
+    bottomPipeImg.src = "./bottompipe.png";
 
     requestAnimationFrame(update);
     setInterval(placePipes, 1500);
