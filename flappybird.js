@@ -66,7 +66,7 @@ window.onload = function () {
     topPipeImg.src = "./toppipe.png";
 
     bottomPipeImg = new Image();
-    bottomPipeImg.src = "./bottompipe.png";
+    bottomPipeImg.src = "./crop.png";
 
     requestAnimationFrame(update);
     setInterval(placePipes, 1500);
